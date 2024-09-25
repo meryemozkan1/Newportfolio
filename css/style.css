@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  padding: 100px 0;
+  background: #122e44;
+}
+
+.section_title {
+  margin-bottom: 30px;
+}
+
+.section_title h2 {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  transition: all 0.5s ease-in-out;
+}
+
+.section_title h2:hover {
+  background-color: #24caac;
+}
+
+/* header */
+
+header {
+  background: rgb(44, 37, 37);
+  border-bottom: 1px solid rgba(238, 238, 238, 0.801);
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px 0;
+}
+
+.nav_links {
+  display: flex;
+}
+
+.nav_links li a {
+  margin-left: 15px;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  list-style-type: none;
+}
+
+.nav_links li a:hover {
+  background: #24caac;
+}
+.logo h2 a {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* ANASAYFA */
+
+.inner_anasayfa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+  color: #fff;
+}
+
+.child_anasayfa {
+  flex-basis: 45%;
+}
+
+.child_anasayfa h1 {
+  font-size: 50px;
+  color: #24caac;
+}
+.span_child {
+  color: #e0376f;
+}
+
+.child_anasayfa p {
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+.btn {
+  background: #24caac;
+  padding: 12px 28px;
+  border-radius: 20px;
+  color: #fff;
+  border: 1px solid #24caac;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background: transparent;
+  letter-spacing: 2px;
+}
+
+/* YAZILIMLAR */
+.innersoftware {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.innersoftware_child {
+  flex-basis: 31%;
+  color: #fff;
+  padding: 25px 20px;
+  background: rgba(55, 66, 80, 0.281);
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: all 0.5s ease-in;
+  margin: 20px;
+}
+
+.innersoftware_child:hover {
+  border: 1px solid #24caac;
+}
+.innersoftware_child .icon {
+  font-size: 25px;
+  color: #24caac;
+}
+
+.innersoftware_child h3 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+.innersoftware_child p {
+  font-size: 16px;
+}
+
+/* sertifikalarım */
+
+.inner_courses {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.child_courses {
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  color: #fff;
+  padding: 20px 10px 20px 10px;
+  border: 1px solid transparent;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.child_courses:hover {
+  border: 1px solid #24caac;
+}
+
+.course_img {
+  display: flex;
+  width: 300px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.child_courses .detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.child_courses .detail ul {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 50%;
+}
+
+.child_courses .detail ul li {
+  color: gold;
+}
+
+.inner_achivement {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.child_achivement {
+  flex-basis: 40%;
+}
+
+.child_achivement img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.child_achivement2 {
+  flex-basis: 46%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.single_detail {
+  flex-basis: 48%;
+  align-items: center;
+  color: #fff;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.single_detail:hover {
+  transform: scale(1.03);
+}
+.sd_3,
+.sd_4 {
+  margin-top: 20px;
+}
+.sd_1 {
+  background: #eaa023;
+  width: 100px; /* Genişlik */
+  height: 100px; /* Yükseklik */
+}
+
+.sd_2 {
+  background: #e91e63;
+  width: 100px; /* Genişlik */
+  height: 100px; /* Yükseklik */
+}
+
+.sd_3 {
+  background: #24caac;
+  width: 100px; /* Genişlik */
+  height: 100px; /* Yükseklik */
+}
+
+.sd_4 {
+  background: #2f363e;
+  width: 100px; /* Genişlik */
+  height: 100px; /* Yükseklik */
+}
+
+/* hakkımda */
+
+.inner_testi {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.child_testi {
+  flex-basis: 46%;
+  margin-bottom: 30px;
+}
+
+.testi_img {
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.testi_img img {
+  border-radius: 50%;
+  width: auto;
+}
+
+.test_highlight {
+  color: #24caac;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+.test_highlight:hover {
+  text-decoration: underline;
+}
